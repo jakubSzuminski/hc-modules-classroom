@@ -19,6 +19,4 @@ Patterns:
 * [`adapter pattern`](https://dev.to/wecarrasco/adapter-pattern-with-javascript-4lgi)
 
 # process
-Clone this repo and run `npm install`. To start server, run `npm start`.
-
 Whenever some task is ready, on the separate branch prepare a PR with working demo, so the code might be reviewed by trainer.
