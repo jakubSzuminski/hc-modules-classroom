@@ -24,6 +24,9 @@ colorsGenerator.get(1); // returns ['green']
 colorsGenerator.get(1); // returns ['blue']
 ```
 
+Note:
+`get()` and `get(1)` are equivalent
+
 Implement a Class with:
 
 a) Public methods:

@@ -1,6 +1,6 @@
 # Exercise 01
 
-1) Create module:
+1) Create a revealing module:
 
 In `color-generator.mjs` file create a module which will provide a color on demand, following the rules:
   - when a color is requested, then next available color is returned
