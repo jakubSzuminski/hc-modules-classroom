@@ -44,6 +44,7 @@ Import module in `main.js` and test it. For example
 
 ```ts
 console.log(
-  colorsGenerator.get() === ['red']
+  colorsGenerator.get().length === 1,
+  colorsGenerator.get()[0] === 'green'
 );
 ```
