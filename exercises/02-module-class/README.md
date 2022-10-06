@@ -14,14 +14,14 @@ Available colors: red, green, blue
 
 ```ts
 const colorsGenerator = new ColorGenerator();
-colorsGenerator.get(); // returns red
-colorsGenerator.get(); // returns green
-colorsGenerator.get(); // returns blue
-colorsGenerator.get(); // returns red
-colorsGenerator.get(2); // returns red and green
-colorsGenerator.get(); // returns red
-colorsGenerator.get(1); // returns green
-colorsGenerator.get(1); // returns blue
+colorsGenerator.get(); // returns ['red']
+colorsGenerator.get(); // returns ['green']
+colorsGenerator.get(); // returns ['blue']
+colorsGenerator.get(); // returns ['red']
+colorsGenerator.get(2); // returns ['red', 'green']
+colorsGenerator.get(); // returns ['red']
+colorsGenerator.get(1); // returns ['green']
+colorsGenerator.get(1); // returns ['blue']
 ```
 
 Implement a Class with:
@@ -41,6 +41,6 @@ Import module in `main.js` and test it. For example
 
 ```ts
 console.log(
-  colorsGenerator.get() === 'red'
+  colorsGenerator.get() === ['red']
 );
 ```

@@ -12,15 +12,15 @@ Example:
 Available colors: red, green, blue
 
 ```ts
-getNextColor(); // returns red
-getNextColor(); // returns green
-getNextColor(); // returns blue
-getNextColor(); // returns red
+getNextColor(); // returns 'red'
+getNextColor(); // returns 'green'
+getNextColor(); // returns 'blue'
+getNextColor(); // returns 'red'
 reset();
-getNextColor(); // returns red
-getNextColor(); // returns green
+getNextColor(); // returns 'red'
+getNextColor(); // returns 'green'
 reset();
-getNextColor(); // returns red
+getNextColor(); // returns 'red'
 ```
 
 Implement:
