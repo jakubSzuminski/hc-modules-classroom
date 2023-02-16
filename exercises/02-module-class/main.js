@@ -14,7 +14,7 @@ function addToList(text) {
   colorList.appendChild(listItem);
 }
 
-requestColorButton.addEventListener('click', () => addToList(colorGenerator.get(input.value)));
+requestColorButton.addEventListener('click', () => addToList(colorGenerator.get(Number(input.value))));
 
 resetButton.addEventListener('click', () => {
   colorGenerator.reset();
