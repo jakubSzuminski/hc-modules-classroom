@@ -1,6 +1,7 @@
 import ColorGenerator from "./color-generator-2.0.mjs";
 
 const input = document.getElementById('number-input'),
+  sliderValueText = document.getElementById('slider-value'),
   requestColorButton = document.getElementById('request-color'),
   resetButton = document.getElementById('reset'),
   colorList = document.getElementById('color-list');
@@ -18,4 +19,8 @@ requestColorButton.addEventListener('click', () => addToList(colorGenerator.get(
 resetButton.addEventListener('click', () => {
   colorGenerator.reset();
   addToList('reset!');
+});
+
+input.addEventListener('input', function() { 
+  sliderValueText.innerHTML = `Request ${this.value} elements`;
 });
